@@ -74,13 +74,17 @@ Hack club slack workspace has many bots installed and if you end up keeping your
 ### Enable Socket Mode (step-by-step)
 
 * Open the **Socket Mode** page in your app left sidebar and toggle **Enable Socket Mode**.
+![Image](https://cdn.hackclub.com/019e4e36-5cef-7730-8be8-f54a2a47abbe/image.png)
 * Socket Mode needs an *App-Level Token* with the `connections:write` scope. To create that token:
 
 1. Open **Basic Information** in the left sidebar.
+![Image](https://cdn.hackclub.com/019e4e38-33ce-7846-8297-9e673a78e80a/image.png)
 2. Scroll to **App-Level Tokens** and click **Generate Token and Scopes**.
+![Image](https://cdn.hackclub.com/019e4e58-6018-7879-a809-11e783023b46/image.png)
 3. Give the token a name (example: `my-bot-socket`) and add the `connections:write` scope.
+![Image](https://cdn.hackclub.com/019e4e5a-5f07-71d8-9a9d-414521d23add/image.png)
 4. Click **Generate** and copy the token immediately. App-level tokens start with `xapp-`.
-
+![Image](https://cdn.hackclub.com/019e4e71-4726-7aff-a486-4620b141a10c/Screenshot%202026-05-22%20121630.png)
 ### Important
 
 Slack separates two token types:
@@ -91,15 +95,15 @@ Slack separates two token types:
 ### Set Bot scopes (OAuth & Permissions)
 
 1. Open **OAuth & Permissions** in the left sidebar.
+![Image](https://cdn.hackclub.com/019e4e6a-853f-7557-abda-c1257a44dc1d/image.png)
 2. Under **Bot Token Scopes** add:
-
+![Image](https://cdn.hackclub.com/019e4e6c-dfde-7481-bb86-ab033e26b950/image.png)
 ```txt
 chat:write
 commands
 app_mentions:read
 channels:history
 ```
-
 You can add more scopes later according to what things you add to the bot.
 
 These permissions allow your bot to:
@@ -110,7 +114,9 @@ These permissions allow your bot to:
 * Access channel messages
 
 3. After adding scopes, go to **Install App** (left sidebar) and click **Install to Workspace**. Grant permissions.
+![Image](https://cdn.hackclub.com/019e4e75-1181-7a8b-be19-fc0b36c92ca6/image.png)
 4. On the same **OAuth & Permissions** page you'll see the **Bot User OAuth Token** (starts with `xoxb-`) - copy and save it. If you don't see it, revisit **Install App**.
+![Image](https://cdn.hackclub.com/019e4e7c-cbc7-7b84-b607-ec62d2f7bacf/image.png)
 
 ### Where to find tokens if you miss them
 
@@ -124,6 +130,7 @@ These permissions allow your bot to:
 ## Slash commands
 
 1. Open **Slash Commands** in the left sidebar and click **Create New Command**.
+![Image](https://cdn.hackclub.com/019e4e7d-f648-74bc-bbaa-15cea4f1ebb1/image.png)
 2. Enter a command name like `/dsb-ping` and provide a short description and usage hint.
 3. Save the command. You will use this command name in your code.
 
