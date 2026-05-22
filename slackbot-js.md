@@ -270,6 +270,7 @@ app.command("/dbt-help", async ({ ack, respond }) => {
 });
 ```
 Example of a help command:
+
 ![Example](https://cdn.hackclub.com/019e4e08-044a-7577-995f-e135b03ca9a3/image.png)
 
 ### API commands (cat facts, jokes)
