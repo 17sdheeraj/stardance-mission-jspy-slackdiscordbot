@@ -128,6 +128,7 @@ It also makes it easier to understand exactly what your bot is allowed to see.
 bot
 applications.commands
 ```
+![Image](https://cdn.hackclub.com/019e4f01-fd62-72a6-a449-42f652029b88/image.png)
 
 3. Under **Bot Permissions**, select the permissions your bot needs.
 
@@ -138,6 +139,7 @@ Send Messages
 Embed Links
 Read Message History
 ```
+![Image](https://cdn.hackclub.com/019e4f02-8df6-72ba-9be9-f7ff9f0ab4c4/image.png)
 
 You can add more later if your bot grows.
 
@@ -150,14 +152,13 @@ You can add more later if your bot grows.
 You do not need Administrator for this tutorial. Keeping permissions small is better.
 
 ### Invite the bot to your server
-
+![Image](https://cdn.hackclub.com/019e4f03-f0ae-77ef-87ba-d885e79efdb5/image.png)
 1. Copy the generated invite link from the bottom of the URL Generator page.
 2. Open it in your browser.
 3. Choose your test server.
-4. Authorize the bot.
-![Image](https://cdn.hackclub.com/019e4ec1-e830-7bc8-84e7-18f32bfe1d09/image.png)
-![Image](https://cdn.hackclub.com/019e4ec2-c1ba-7ae9-ab1f-21d53d7fd95f/image.png)
 ![Image](https://cdn.hackclub.com/019e4ec4-654d-7502-8ab5-60e3ead44760/image.png)
+4. Authorize the bot.
+
 ### Important
 
 The bot must be invited to a server before slash commands can appear there.
