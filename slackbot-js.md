@@ -407,6 +407,13 @@ git clone https://github.com/<yourgithubusername>/<yourreponame>
 cd <yourreponame>
 npm install
 ```
+Git not found, or missing?
+install it by running the following one by one
+```bash
+apt update && apt upgrade -y
+apt install sudo -y
+sudo apt install git -y
+```
 
 Once that is done, create the `.env` file here by running:
 
