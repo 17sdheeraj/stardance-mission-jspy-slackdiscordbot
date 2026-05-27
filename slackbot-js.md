@@ -154,6 +154,7 @@ Open the folder in VS Code before running commands. In VS Code use **Terminal â†
 npm init -y
 npm install @slack/bolt dotenv
 ```
+Note - If you encounter an error like npm is not recognized, make sure you have node.js installed; download it [here](https://nodejs.org/en/download)
 
 Create an `index.js` file in the project folder and paste this base code. Change the command name if you used a different slash command above.
 

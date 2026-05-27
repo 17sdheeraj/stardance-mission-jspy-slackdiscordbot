@@ -182,6 +182,7 @@ In VS Code use **Terminal → New Terminal** so commands run in the correct fold
 npm init -y
 npm install discord.js dotenv axios
 ```
+Note - If you encounter an error like npm is not recognized, make sure you have node.js installed; download it [here](https://nodejs.org/en/download)
 
 ### What this does
 
